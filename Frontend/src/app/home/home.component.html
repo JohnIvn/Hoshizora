@@ -1,0 +1,43 @@
+<nz-layout class="layout">
+  <nz-header>
+    <div class="logo">
+      <p>NG-ZORRO Homepage</p>
+    </div>
+    <ul nz-menu nzTheme="dark" nzMode="horizontal" class="menu">
+      <li nz-menu-item nzSelected>Home</li>
+      <li nz-menu-item>Documentation</li>
+      <li nz-menu-item>Components</li>
+      <li nz-menu-item>About</li>
+    </ul>
+  </nz-header>
+  <nz-content class="content">
+    <div class="inner-content">
+      <nz-card nzHoverable class="welcome-card">
+        <div class="welcome-content">
+          <h1>Welcome to NG-ZORRO</h1>
+          <p>
+            An enterprise-class Angular UI component library based on Ant Design
+          </p>
+          <div class="buttons">
+            <button nz-button nzType="primary" nzSize="large">
+              Get Started
+            </button>
+            <button nz-button nzSize="large">Learn More</button>
+          </div>
+        </div>
+      </nz-card>
+
+      <div class="features">
+        <nz-divider nzText="Features"></nz-divider>
+        <div nz-row [nzGutter]="16">
+          <div nz-col [nzSpan]="8" *ngFor="let feature of features">
+            <nz-card [nzTitle]="feature.title" [nzHoverable]="true">
+              <p>{{ feature.description }}</p>
+            </nz-card>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nz-content>
+  <nz-footer class="footer"> NG-ZORRO ©2023 Implemented in Angular </nz-footer>
+</nz-layout>
