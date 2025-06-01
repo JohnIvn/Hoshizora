@@ -4,10 +4,10 @@
       <p>NG-ZORRO Homepage</p>
     </div>
     <ul nz-menu nzTheme="dark" nzMode="horizontal" class="menu">
-      <li nz-menu-item nzSelected>Home</li>
+      <li nz-menu-item nzSelected routerLink="/">Home</li>
       <li nz-menu-item>Documentation</li>
       <li nz-menu-item>Components</li>
-      <li nz-menu-item>About</li>
+      <li nz-menu-item routerLink="/my-page">About</li>
     </ul>
   </nz-header>
   <nz-content class="content">
@@ -24,10 +24,15 @@
             </button>
             <button nz-button nzSize="large">Learn More</button>
           </div>
-          <nz-demo-popover-control></nz-demo-popover-control>
         </div>
       </nz-card>
-      <a nz-button nzSize="large" routerLink="/my-page">Go to My Page</a>
+
+      <div class="go-to-page">
+        <button nz-button nzType="primary" nzSize="large" routerLink="/my-page">
+          Go to My Page
+        </button>
+      </div>
+
       <div class="features">
         <nz-divider nzText="Features"></nz-divider>
         <div nz-row [nzGutter]="16">

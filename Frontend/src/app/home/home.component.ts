@@ -1,25 +1,25 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzGridModule } from 'ng-zorro-antd/grid';
-import { NzDemoPopoverControlComponent } from '../components/popover.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [
     CommonModule,
+    RouterModule,
     NzLayoutModule,
     NzMenuModule,
     NzCardModule,
     NzButtonModule,
     NzDividerModule,
     NzGridModule,
-    NzDemoPopoverControlComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
