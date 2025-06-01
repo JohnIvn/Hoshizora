@@ -73,6 +73,12 @@ To run this project locally, ensure you have the following installed:
 - Admin panel for managing planetary destinations and flight schedules
 - High-security authorization for luxury-class and mission-specific access
 
+## TECHNOLOGIES USED
+
+- Frontend: Angular and NG-ZORRO
+- Backend: Node JS
+- Hardware: Esp32 & MFRCC 522
+
 ## LICENSE
 
 See the LICENSE file for more information.
