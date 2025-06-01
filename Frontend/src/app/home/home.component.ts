@@ -6,6 +6,7 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzGridModule } from 'ng-zorro-antd/grid';
+import { NzDemoPopoverControlComponent } from '../components/popover.component';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +19,7 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
     NzButtonModule,
     NzDividerModule,
     NzGridModule,
+    NzDemoPopoverControlComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
