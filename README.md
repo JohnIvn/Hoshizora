@@ -27,7 +27,7 @@ To run this project locally, ensure you have the following installed:
 ## INSTALLATION
 
 1. Clone the Repository:
-   git clone https://github.com/JohnIvn/tapigo.git
+   git clone https://github.com/JohnIvn/Hoshizora.git
    cd tapigo
 
 2. Install Dependencies:
@@ -61,11 +61,12 @@ To run this project locally, ensure you have the following installed:
 
 ## FEATURES
 
-- Ticket purchase and management system
-- RFID/NFC tap-to-enter integration
-- Responsive UI for both web and kiosk environments
-- Admin dashboard for managing events and access control
-- Fast check-in/check-out flow
+- Book interstellar trips from a sleek and interactive interface
+- NFC/RFID card system for boarding and identity verification
+- Real-time access tracking at ports and hubs
+- Personalized travel logs and digital credentials
+- Admin panel for managing planetary destinations and flight schedules
+- High-security authorization for luxury-class and mission-specific access
 
 ## LICENSE
 
