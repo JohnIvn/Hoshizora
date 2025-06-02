@@ -29,7 +29,11 @@
             <nz-divider nzText="Features"></nz-divider>
             <div nz-row [nzGutter]="16">
               <div nz-col [nzSpan]="8" *ngFor="let feature of features">
-                <nz-card [nzTitle]="feature.title" [nzHoverable]="true" style="margin-bottom: 10px;">
+                <nz-card
+                  [nzTitle]="feature.title"
+                  [nzHoverable]="true"
+                  style="margin-bottom: 10px"
+                >
                   <p>{{ feature.description }}</p>
                 </nz-card>
               </div>
@@ -38,12 +42,28 @@
         </div>
       </div>
 
+      <div style="height: 101%; width: 100%">
+        <nz-splitter-complex></nz-splitter-complex>
+      </div>
+
       <div class="go-to-page">
         <button nz-button nzType="primary" nzSize="large" routerLink="/my-page">
           Go to My Page
         </button>
       </div>
-      <nz-footer class="footer"> Hoshizora ©2025</nz-footer>
+
+      <nz-footer class="footer">
+        <div class="footer-content">
+          <div class="footer-left">
+            <p>© 2025 Hoshizora Travel Agency. All rights reserved.</p>
+          </div>
+          <div class="footer-right">
+            <a routerLink="/about">About</a>
+            <a routerLink="/contact">Contact</a>
+            <a routerLink="/privacy">Privacy Policy</a>
+          </div>
+        </div>
+      </nz-footer>
     </div>
   </nz-content>
 </nz-layout>

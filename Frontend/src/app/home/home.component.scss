@@ -49,10 +49,6 @@
   margin-top: 40px;
 }
 
-.footer {
-  text-align: center;
-}
-
 body,
 html {
   margin: 0;
@@ -60,4 +56,36 @@ html {
   height: 100%;
   width: 100%;
   overflow: hidden;
+}
+
+.footer {
+  background: #001529;
+  color: #fff;
+  text-align: center;
+  padding: 24px 50px;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .footer-left {
+    font-size: 14px;
+  }
+
+  .footer-right {
+    display: flex;
+    gap: 16px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
