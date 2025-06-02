@@ -7,6 +7,7 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzGridModule } from 'ng-zorro-antd/grid';
+import { NzCarouselAutoplayComponent } from '../components/carousel.component';
 
 @Component({
   selector: 'app-home',
@@ -20,6 +21,7 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
     NzButtonModule,
     NzDividerModule,
     NzGridModule,
+    NzCarouselAutoplayComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
@@ -27,9 +29,8 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 export class HomeComponent {
   features = [
     {
-      title: 'Enterprise-Class',
-      description:
-        'Designed for enterprise-level applications with a professional UI design language.',
+      title: 'TypeScript',
+      description: 'Written in TypeScript with predictable static types.',
     },
     {
       title: 'Powerful Components',
@@ -40,19 +41,16 @@ export class HomeComponent {
       description: 'Written in TypeScript with predictable static types.',
     },
     {
-      title: 'Themes',
-      description:
-        'Customizable theme with CSS variables for easy style customization.',
+      title: 'TypeScript',
+      description: 'Written in TypeScript with predictable static types.',
     },
     {
-      title: 'International',
-      description:
-        'Extensive internationalization support for dozens of languages.',
+      title: 'TypeScript',
+      description: 'Written in TypeScript with predictable static types.',
     },
     {
-      title: 'Accessibility',
-      description:
-        'Follows WCAG standards to ensure accessibility for all users.',
+      title: 'TypeScript',
+      description: 'Written in TypeScript with predictable static types.',
     },
   ];
 }
