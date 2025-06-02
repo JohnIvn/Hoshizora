@@ -9,6 +9,7 @@ import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzCarouselAutoplayComponent } from '../components/carousel.component';
 import { NzSplitterComplexComponent } from '../components/collapsible.component';
+import { NzDemoFormNormalLoginComponent } from '../components/login.component';
 
 @Component({
   selector: 'app-home',
@@ -24,6 +25,7 @@ import { NzSplitterComplexComponent } from '../components/collapsible.component'
     NzGridModule,
     NzCarouselAutoplayComponent,
     NzSplitterComplexComponent,
+    NzDemoFormNormalLoginComponent,
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
