@@ -1,0 +1,91 @@
+.layout {
+  min-height: 100vh;
+}
+
+.content {
+  padding: 0;
+  height: 100vh;
+}
+
+.inner-content {
+  padding: 0;
+  height: 100%;
+}
+
+.welcome-card {
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .welcome-content {
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    max-width: 700px;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 24px;
+      color: rgba(0, 0, 0, 0.45);
+    }
+
+    .buttons {
+      button {
+        margin: 0 8px;
+      }
+    }
+  }
+}
+
+.features {
+  margin-top: 40px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer {
+  background: #001529;
+  color: #fff;
+  text-align: center;
+  padding: 24px 50px;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .footer-left {
+    font-size: 14px;
+  }
+
+  .footer-right {
+    display: flex;
+    gap: 16px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
