@@ -27,13 +27,15 @@ personalized boarding and disembarkation across multiple interstellar destinatio
 
 - [Requirements](#requirements)
 - [Features](#features)
+- [Release](#release)
 - [Installation](#installation)
+- [Structure](#structure)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
 ---
 
-## REQUIREMENTS
+## Requirements
 
 To run this project locally, ensure you have the following installed:
 
@@ -43,6 +45,12 @@ To run this project locally, ensure you have the following installed:
 - Web server (e.g., Express.js for backend)
 - RFID/NFC Reader compatible with your kiosk setup
 - Any Database Access (This is built with Firebase)
+
+---
+
+## Release
+
+- Alternatively you can download the `.zip` file from the [Releases](https://github.com/JohnIvn/Hoshizora/releases) section.
 
 ---
 
@@ -172,6 +180,30 @@ yarn
    cd hardware
    yarn hardware
 ```
+---
+
+## Structure
+
+```bash
+/
+├── Backend/
+│   ├── Controllers/
+│   ├── Routes/
+│   └── Services/
+├── Frontend/
+│   ├── public/
+│   └── src/
+│       └── app/
+│           ├── about/
+│           ├── components/
+│           └── home/                    
+└── Hardware/
+│   ├── Services/
+│   └── Socket/
+└── Ino/
+    └── rfid/                  
+```
+
 ---
 
 ## Technologies-Used
